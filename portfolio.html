@@ -10,20 +10,21 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>Portfolio</title>
-
     <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <a href="http://">WebStudio</a>
-      <nav>
+    <header class="nav-header">
+      <a class="main-logo" href="index.html" target="_self"></a>
+      <p class="first-word">Web<span class="second-word">Studio</span></p>
+
+      <nav class="navigation">
         <ul>
           <li>
             <a href="/">Agencja</a>
           </li>
           <li>
-            <a href="/">Portfolio</a>
+            <a href="portfolio.html" target="_self">Portfolio</a>
           </li>
           <li>
             <a href="/">Kontakt</a>
@@ -32,12 +33,16 @@
       </nav>
       <ul>
         <li>
-          <a href="mailto:info@devstudio.com"> info@devstudio.com </a>
+          <a class="contact-us" href="mailto:info@devstudio.com">
+            info@devstudio.com
+          </a>
         </li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <li>
+          <a class="contact-us" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
-    <main>
+    <main class="portfolio-buttons">
       <button type="button">Wszystkie</button>
       <button type="button">Strony</button>
       <button type="button">Aplikacje</button>
@@ -139,12 +144,18 @@
       </ul>
     </main>
 
-    <footer>
-      <p>WebStudio</p>
-      <address>
+    <footer class="footer-informations">
+      <a class="main-logo" href="index.html" target="_self"
+        ><p class="first-word">Web<span class="third-word">Studio</span></p></a
+      >
+      <address class="street">
         m. Warszawa, Aleje Jerozolimskie 21 <br />
-        <a href="mailto:info@example.com"> info@example.com</a> <br />
-        <a href="tel:+48111111111"> +48 111 111 111 </a><br />
+        <a class="contact-us" href="mailto:info@example.com">
+          info@example.com</a
+        >
+        <br />
+        <a class="contact-us" href="tel:+48111111111"> +48 111 111 111 </a
+        ><br />
       </address>
     </footer>
   </body>
