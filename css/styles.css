@@ -110,15 +110,10 @@ body {
   width: 200px;
   height: 50px;
 }
-.main-button:hover {
-  color: var(--select-bgcolor);
-  background-color: var(--normal-bgcolor);
-  border: var(--border);
-  cursor: pointer;
-}
-.main-button:focus {
-  color: var(--select-bgcolor);
-  background-color: var(--normal-bgcolor);
+
+.main-button {
+  color: var(--normal-bgcolor);
+  background-color: var(--select-bgcolor);
   border: var(--border);
   cursor: pointer;
 }
@@ -131,17 +126,17 @@ button {
   width: 93px;
   height: 38px;
 }
-button:hover {
-  color: var(--select-color);
-  background-color: var(--select-bgcolor);
-  cursor: pointer;
-}
+
 button:focus {
   color: var(--select-color);
   background-color: var(--select-bgcolor);
   cursor: pointer;
 }
-
+button:hover {
+  color: var(--select-color);
+  background-color: var(--select-bgcolor);
+  cursor: pointer;
+}
 /* anhor */
 a {
   color: var(--normal-text);
